@@ -1,0 +1,56 @@
+/* ORDER CONFIRMATION SIDE */
+.order-box {
+    width: 1000px;
+    height: 400px;
+    background-color: #0B7F99;
+    display: flex;
+}
+
+.order-box > div {
+    flex: 50%;
+}
+
+.order-img {
+    width: 500px;
+    height: 400px;
+}
+
+.order-img-specific {
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    padding: 10px;
+}
+
+.order-text {
+    font-size: 2em;
+}
+
+.order-info {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.order-row {
+    height: 150px;
+    width: 150px;
+}
+
+.size {
+    background-color: #aaa;
+}
+
+.amount {
+    background-color: #bbb;
+}
+
+/* Få flexboxen til at hver div tar opp 100% på mobil skjerm */
+@media (max-width: 800px) {
+    .order-box > div {
+        flex: 100%;
+    }
+}
+
+
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Information "about me"</title>
+        <link href="styles.css" rel="stylesheet">
+        <link href="css/myinfo.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Federant&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Federant&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> <!--linker til noen av fontene jeg skal bruke-->
+        <script src="https://kit.fontawesome.com/79f4911f4f.js" crossorigin="anonymous"></script> <!--Link til ikoner-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> <!--Link til fonten Montserrat!-->
+    </head>
+    <section class="menu_rainydays">
+        <header>
+            <a href="index.html"><img src="images/rainydays.png" class="logo"/> </a>
+        </header>
+        <div>
+            <label for="hamburger-menu"><i class="hamburger fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu">
+                <nav>
+                 <ul>
+                     <li> <a href="index.html" class="topnav menu-elements action">Home</a></li>
+                     <li> <a href="men.html" class="topnav menu-elements">Men</a></li>
+                     <li> <a href="women.html" class="topnav menu-elements">Women</a></li>
+                     <li class="help-elements"> <a href="myinfo.html"><i class="topnav-right fas fa-shopping-cart"></i></a></li> 
+                     <li class="help-elements"> <a href=""> <i class="topnav-right far fa-user-circle"></i></a></li>      
+                </ul>
+            </nav>
+        </div>
+        </section>
+    <body>
+        <main>
+          <h1 class="frontheader">My information</h1>
+     <section class="my-info-align">
+        <p class="myinfo-header">1. Your shopping cart</p>
+      <div class="myinfo-shoppingcart">
+           <div class="myinfo-container">
+              <img src="images/mainpage/yellowjacket1.jpg" class="myinfo-img">
+              <h2 class="product-header">Jacket name</h2>
+           </div>
+           <div class="myinfo-shoppingcart_productinfo">
+            <select name="choice">
+                <option value="main" selected>SELECT SIZE</option>
+                  <option value="first">XS</option>
+                  <option value="second">S</option>
+                  <option value="third">M</option>
+                  <option value="fourth">L</option>
+                  <option value="fifth">XL</option>
+                </select>
+                <select name="choice">
+                    <option value="main" selected>AMOUNT</option>
+                      <option value="first">1</option>
+                      <option value="second">2</option>
+                      <option value="third">3</option>
+                      <option value="fourth">4</option>
+                      <option value="fifth">5</option>
+                    </select>
+           </div>
+      </div>
+      <div class="myinformation">
+        <p class="myinfo-header">2. My information</p>
+        <input type="email" id="email" name="email" placeholder="EMAIL:"/>
+        <input type="name" id="name" name="name" placeholder="YOUR NAME:"/>
+        <input type="phone" id="phone" name="phone" placeholder="PHONE NUMBER:"/>
+        <input type="address" id="address" name="address" placeholder="ADDRESS:"/>
+      </div>
+      <div class="myinfo-shipping">
+        <p class="myinfo-header">3. Shipping and payment method</p>
+        <p>Shipping method</p>
+        <p>When do you want to recieve your package?</p>
+        <div class="myinfo-cta">
+        <a href="" class="myinfo-btn cta-shipping">Standard FREE Shipping</a>
+        </div>
+        <p>Payment method</p>
+        <p>How do you want to pay?</p>
+        <div class="myinfo-cta">
+           <a href="order.html" class="myinfo-btn cta ">Pay now</a>
+           <a href="order.html" class="myinfo-btn cta ">Get package home first</a>
+        </div>
+       </div>
+     </section>
+        </main>
+    </body>
+    <footer>
+      <div class="grid-footer">
+              <div class="foot">  
+                     <h2 class="footer-header">About Rainy Days</h2>
+                      <p class="text">Rainy days is text bla bla</p>
+                      <p class="text">Rainy days is text bla bla</p>
+                      <p class="text">Rainy days is text bla bla</p>
+                      <p class="text">Rainy days is text bla bla</p>
+                      <p class="text">Rainy days is text bla bla</p>
+                      <p class="text">Copyright &COPY;</p>
+              </div>
+               <div class="foot">
+                      <h2 class="footer-header">Contact</h2>
+                 <div class="footer-cta">
+                       <i class="fas fa-phone-alt"></i>
+                       <p class="text">+47 123 45 678</p>
+                 </div>
+                  <div class="footer-cta">
+                       <i class="fas fa-envelope"></i>
+                       <p class="text">rainydays@gmail.com</p>
+                 </div>
+               </div>
+                <div class="foot">
+                       <h2 class="footer-header">Stay updated</h2>
+                  <div class="email-align">
+                       <input type="email" id="email-footer" name="email" placeholder="Email:"/>
+                       <a href="" class="cta-footer cta-large">Subscribe</a>
+                 </div>
+                  <div class="footer-app">
+                       <i class="fab fa-facebook-f"></i>
+                       <p class="text">Facebook</p>
+                 </div>
+                  <div class="footer-app">
+                       <i class="fab fa-twitter"></i>
+                       <p class="text">Twitter</p>
+                 </div>
+                  <div class="footer-app">
+                       <i class="fab fa-tiktok"></i>
+                       <p class="text">Tiktok</p>
+                 </div>
+              </div>
+      </div>
+</footer>
+</html>

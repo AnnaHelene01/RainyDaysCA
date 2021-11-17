@@ -1,0 +1,30 @@
+/* MENS PAGE*/
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-img {
+    flex: 33.33%;
+}
+
+.products::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (max-width: 800px) {
+    .products {
+        display: flex;
+    }
+    
+    .products-img {
+        flex: 100%;
+    }
+}
